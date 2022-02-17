@@ -811,7 +811,10 @@ textarea::placeholder {
 
 .modal-check:focus-visible ~ .modal-check-icon {
   border-color: var(--accent-color);
-  background-color: var(--accent-color);
+}
+
+.modal-check:hover ~ .modal-check-icon {
+  border: 2px solid var(--accent-color);
 }
 
 .modal-check-icon {
