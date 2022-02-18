@@ -579,8 +579,6 @@ img {
 }
 
 .footer-three {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
 }
 
@@ -940,6 +938,7 @@ textarea::placeholder {
 }
 
 .portfolio-link {
+  display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
